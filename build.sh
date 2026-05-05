@@ -4,13 +4,12 @@ set -e
 
 VERSION=10
 MINOR=6
-PATCH=
-EXTRAVERSION="rc1"
-COMMIT="
-(#616)
+PATCH=1
+EXTRAVERSION=""
+COMMIT="(#616 #620)
 
 "
-BRANCH="dev"
+BRANCH="main"
 
 if [[ -z $PATCH ]]; then
     PATCH=""

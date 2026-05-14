@@ -1,15 +1,41 @@
-# Pytubefix
+<p align="center">
+  <img
+    width="220"
+    alt="pytubefix_logo"
+    src="https://github.com/user-attachments/assets/b28b3379-4b72-4846-b2c4-2ade07202e45"
+  />
+</p>
 
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/pytubefix)](https://pypi.org/project/pytubefix/)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/juanbindez)](https://github.com/sponsors/juanbindez)
-[![PyPI - License](https://img.shields.io/pypi/l/pytubefix)](https://opensource.org/licenses/MIT)
-[![Read the Docs](https://img.shields.io/readthedocs/pytubefix)](https://pytubefix.readthedocs.io/)
-[![GitHub Tag](https://img.shields.io/github/v/tag/JuanBindez/pytubefix?include_prereleases)](https://github.com/JuanBindez/pytubefix/releases)
-[![PyPI - Version](https://img.shields.io/pypi/v/pytubefix)](https://pypi.org/project/pytubefix/)
+<h1 align="center">
+  Python3 Library for Downloading YouTube Videos
+</h1>
 
-## Python3 Library for Downloading YouTube Videos
+<p align="center">
+  <a href="https://pypi.org/project/pytubefix/">
+    <img src="https://img.shields.io/pypi/dm/pytubefix" alt="PyPI Downloads">
+  </a>
 
----
+  <a href="https://github.com/sponsors/juanbindez">
+    <img src="https://img.shields.io/github/sponsors/juanbindez" alt="GitHub Sponsors">
+  </a>
+
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/pypi/l/pytubefix" alt="License">
+  </a>
+
+  <a href="https://pytubefix.readthedocs.io/">
+    <img src="https://img.shields.io/readthedocs/pytubefix" alt="Read the Docs">
+  </a>
+
+  <a href="https://github.com/JuanBindez/pytubefix/releases">
+    <img src="https://img.shields.io/github/v/tag/JuanBindez/pytubefix?include_prereleases" alt="GitHub Tag">
+  </a>
+
+  <a href="https://pypi.org/project/pytubefix/">
+    <img src="https://img.shields.io/pypi/v/pytubefix" alt="PyPI Version">
+  </a>
+</p>
+
 
 ## Installation
 

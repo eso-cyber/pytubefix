@@ -6,9 +6,9 @@
   />
 </p>
 
-<h2 align="center">
+<h1 align="center">
   Python3 Library for Downloading YouTube Videos
-</h2>
+</h1>
 
 <p align="center">
   <a href="https://pypi.org/project/pytubefix/">
@@ -36,7 +36,6 @@
   </a>
 </p>
 
----
 
 ## Installation
 

@@ -32,9 +32,9 @@
   </a>
 </p>
 
-<h1 align="center">
+<h2 align="center">
   Python3 Library for Downloading YouTube Videos
-</h1>
+</h2>
 
 
 ## Installation

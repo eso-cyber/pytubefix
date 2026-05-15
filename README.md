@@ -6,10 +6,6 @@
   />
 </p>
 
-<h1 align="center">
-  Python3 Library for Downloading YouTube Videos
-</h1>
-
 <p align="center">
   <a href="https://pypi.org/project/pytubefix/">
     <img src="https://img.shields.io/pypi/dm/pytubefix" alt="PyPI Downloads">
@@ -35,6 +31,10 @@
     <img src="https://img.shields.io/pypi/v/pytubefix" alt="PyPI Version">
   </a>
 </p>
+
+<h1 align="center">
+  Python3 Library for Downloading YouTube Videos
+</h1>
 
 
 ## Installation

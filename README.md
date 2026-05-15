@@ -10,23 +10,18 @@
   <a href="https://pypi.org/project/pytubefix/">
     <img src="https://img.shields.io/pypi/dm/pytubefix" alt="PyPI Downloads">
   </a>
-
   <a href="https://github.com/sponsors/juanbindez">
     <img src="https://img.shields.io/github/sponsors/juanbindez" alt="GitHub Sponsors">
   </a>
-
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/pypi/l/pytubefix" alt="License">
   </a>
-
   <a href="https://pytubefix.readthedocs.io/">
-    <img src="https://img.shields.io/readthedocs/pytubefix" alt="Read the Docs">
+    <img src="https://img.shields.io/readthedocs/pytubefix" alt="Docs">
   </a>
-
   <a href="https://github.com/JuanBindez/pytubefix/releases">
     <img src="https://img.shields.io/github/v/tag/JuanBindez/pytubefix?include_prereleases" alt="GitHub Tag">
   </a>
-
   <a href="https://pypi.org/project/pytubefix/">
     <img src="https://img.shields.io/pypi/v/pytubefix" alt="PyPI Version">
   </a>

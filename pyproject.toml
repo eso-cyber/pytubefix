@@ -5,19 +5,24 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pytubefix"
 version = "10.7.3"
+
 authors = [
   { name="Juan Bindez", email="juanbindez780@gmail.com" },
 ]
+
 description = "Python3 library for downloading YouTube Videos."
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT license"}
-keywords = ["youtube", "download", "video", "stream",]
+
+license = "MIT"
+license-files = ["LICENSE"]
+
+keywords = ["youtube", "download", "video", "stream"]
+
 classifiers = [
 	"Development Status :: 5 - Production/Stable",
 	"Environment :: Console",
 	"Intended Audience :: Developers",
-	"License :: OSI Approved :: MIT License",
 	"Natural Language :: English",
 	"Operating System :: OS Independent",
 	"Programming Language :: Python :: 3.7",
@@ -33,7 +38,11 @@ classifiers = [
 	"Topic :: Terminals",
 	"Topic :: Utilities",
 ]
-dependencies = ["aiohttp >=3.12.13", "nodejs-wheel-binaries >= 22.20.0"]
+
+dependencies = [
+    "aiohttp >=3.12.13",
+    "nodejs-wheel-binaries >= 22.20.0"
+]
 
 [project.urls]
 "Homepage" = "https://github.com/juanbindez/pytubefix"
@@ -47,10 +56,7 @@ pytubefix = "pytubefix.cli:main"
 include = ["pytubefix*"]
 
 [tool.setuptools]
-license-files = ["LICENSE"]
 include-package-data = true
 
 [tool.setuptools.package-data]
 "pytubefix" = ["botGuard/vm/*.js", "sig_nsig/vm/*.js"]
-
-

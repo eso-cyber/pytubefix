@@ -1,60 +1,132 @@
-## How to contribute to Pytubefix
+# How to Contribute to Pytubefix
 
-#### **Did you find a bug?**
+## Development Workflow
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/JuanBindez/pytubefix/issues).
+Pytubefix follows a development-first workflow.
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/JuanBindez/pytubefix/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **[MRE code sample](https://stackoverflow.com/help/minimal-reproducible-example)** or an **executable test case** demonstrating the expected behavior that is not occurring.
+All development work must be based on the `dev` branch.
 
-* For more detailed information on submitting a bug report and creating an issue, visit `TODO`
+Contributors should:
 
-#### **Did you write a patch that fixes a bug?**
+1. Fork the repository.
+2. Create a feature or fix branch from `dev`.
+3. Commit and test their changes.
+4. Submit a Pull Request targeting the `dev` branch.
 
-* Open a new GitHub pull request with the patch.
+Pull Requests opened against `main` may be closed and contributors will be asked to resubmit them against `dev`.
 
-* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
+## Commit Signing Requirement
 
-* **AI-Assisted Contributions:** If your patch was developed with the help of AI tools (like ChatGPT, Claude, or Copilot), you must document it following the Linux Kernel standards. Use the 'Assisted-by' tag wrapped by your 'Signed-off-by' signatures in the commit message (as shown below).
+All commits must be signed off using the Developer Certificate of Origin (DCO).
 
-* Before submitting, please read the [Numpy Contribution Guidelines](https://numpy.org/devdocs/dev/index.html) guide to know more about coding conventions and benchmarks.
+Pull Requests containing one or more commits without a valid `Signed-off-by` line will be rejected.
 
-#### **Commit Message Standard for AI Tools**
+The easiest way to create compliant commits is:
 
-To maintain transparency and legal integrity, we follow the 2026 Linux Kernel documentation standards for AI-assisted code:
+```bash
+git commit -s
+```
 
----
-[Technical description of the changes]
+This automatically appends:
 
+```text
 Signed-off-by: Your Name <your.email@example.com>
+```
 
-Assisted-by: AI Model Name [Tool Provider]
+## Did You Find a Bug?
 
-Signed-off-by: Your Name <your.email@example.com>
+* Ensure the bug was not already reported by searching GitHub Issues.
 
----
+* If you're unable to find an existing issue, open a new one and include:
+  * A clear title and description.
+  * Relevant environment information.
+  * A Minimal Reproducible Example (MRE) or executable test case.
 
-*By signing, you certify that you have manually reviewed the AI-generated code and assume full legal responsibility for it.*
+* For more detailed information on submitting bug reports, see: `TODO`.
 
-#### **Did you fix whitespace, format code, or make a purely cosmetic patch?**
+## Did You Write a Patch That Fixes a Bug?
 
-Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of Pytubefix will generally not be accepted as we abide by pep8 formatting.
+* Open a Pull Request against the `dev` branch.
 
-#### **Do you intend to add a new feature or change an existing one?**
+* Ensure the PR description clearly explains:
+  * The problem.
+  * The solution.
+  * Any related issue numbers.
 
-* Suggest your change as an issue in the with the label #enhancement
+* Before submitting, please read the NumPy Contribution Guidelines to learn more about coding conventions and testing practices.
 
-* Though perhaps not common as GitHub issues are primarily intended for bug reports and fixes, PyTubefix is currently using issues for open design proposals.
+## AI-Assisted Contributions
 
-#### **Do you have questions about the source code?**
+When AI tools contribute to Pytubefix development, proper attribution helps track the evolving role of AI in the development process.
 
-* Ask any question about how to use PyTubefix [in StackOverflow](https://stackoverflow.com/questions/tagged/pytubefix)
+Contributions developed with the assistance of AI tools must include an `Assisted-by` tag in the commit message.
 
-#### **Do you want to contribute to the PyTubefix documentation?**
+### Assisted-by Format
 
-* Consider submitting a patch to the [docs](https://github.com/JuanBindez/pytubefix/tree/main/docs)
+```text
+Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]
+```
 
-PyTubefix is a volunteer effort. We encourage you to pitch in and [join the team](https://contributors.rubyonrails.org)!
+Examples:
 
-Thanks! :smile: :heart:
+```text
+Assisted-by: ChatGPT:GPT-5.5 [OpenAI]
+```
 
-PyTubefix Team
+```text
+Assisted-by: Claude:Opus-4 [Anthropic]
+```
+
+```text
+Assisted-by: GitHub Copilot:GPT-5 [GitHub] [OpenAI]
+```
+
+The `Assisted-by` tag should appear between the contributor's `Signed-off-by` lines.
+
+Example:
+
+```text
+Improve cipher validation logic
+
+Signed-off-by: John Doe <john@example.com>
+
+Assisted-by: ChatGPT:GPT-5.5 [OpenAI]
+
+Signed-off-by: John Doe <john@example.com>
+```
+
+By including a `Signed-off-by` line, contributors certify that they have reviewed the code, understand the submitted changes, and accept full responsibility for the contribution, regardless of any AI assistance used during development.
+
+## Cosmetic Changes
+
+Changes that are purely cosmetic and do not improve functionality, stability, maintainability, documentation quality, or testability are generally not accepted.
+
+Pytubefix follows PEP 8 formatting standards.
+
+## Do You Intend to Add a New Feature?
+
+* Open an issue using the `enhancement` label before starting implementation.
+
+* Pytubefix uses GitHub Issues not only for bug reports, but also for discussing design proposals and feature ideas.
+
+## Do You Have Questions About the Source Code?
+
+Ask questions about Pytubefix usage on Stack Overflow:
+
+https://stackoverflow.com/questions/tagged/pytubefix
+
+## Do You Want to Improve the Documentation?
+
+Documentation contributions are always welcome.
+
+Please consider submitting a patch to:
+
+https://github.com/JuanBindez/pytubefix/tree/main/docs
+
+## Final Notes
+
+Pytubefix is a volunteer-driven project. Contributions of all sizes are appreciated.
+
+Thank you for helping improve Pytubefix.
+
+Pytubefix Team

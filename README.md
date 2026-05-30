@@ -1,8 +1,8 @@
 <p align="center">
   <img
-    width="150"
+    width="250"
     alt="pytubefix_logo"
-    src="https://github.com/user-attachments/assets/b28b3379-4b72-4846-b2c4-2ade07202e45"
+    src="https://github.com/user-attachments/assets/f57a840f-9fa7-465c-997b-17bdf8f8be2e"
   />
 </p>
 

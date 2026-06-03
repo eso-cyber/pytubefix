@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/readthedocs/pytubefix">
   <img src="https://img.shields.io/github/v/tag/JuanBindez/pytubefix?include_prereleases">
   <img src="https://img.shields.io/pypi/v/pytubefix">
+  <img src="https://img.shields.io/pypi/pyversions/pytubefix.svg">
 </p>
 
 <h2 align="center">

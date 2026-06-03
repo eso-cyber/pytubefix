@@ -3,15 +3,13 @@
 set -e
 
 VERSION=10
-MINOR=8
-PATCH=1
-EXTRAVERSION=""
-COMMIT="(#636 #638 #640 #641)
+MINOR=9
+PATCH=
+EXTRAVERSION="-rc1"
+COMMIT="(#644 #645)
 
-Fixes:#638
-Tested-by: phasefactor <phasefactor@phasefactor.dev>
 "
-BRANCH="main"
+BRANCH="dev"
 
 if [[ -z $PATCH ]]; then
     PATCH=""

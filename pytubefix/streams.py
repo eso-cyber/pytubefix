@@ -112,7 +112,7 @@ class Stream:
             self.audio_track_language_id_regionalized= str(stream['audioTrack']['id']).split(".")[0]
             self.audio_track_language_id= self.audio_track_language_id_regionalized.split("-")[0] 
         else:
-            self.is_default_audio_track = self.includes_audio_track and not self.includes_video_track
+            self.is_default_audio_track = self.type == "audio"
             self.audio_track_name_regionalized = None
             self.audio_track_name = None
             self.audio_track_language_id_regionalized = None
@@ -608,3 +608,4 @@ class Stream:
             yield chunk
 
         self.on_complete(None)
+

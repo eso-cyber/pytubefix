@@ -476,7 +476,7 @@ class Playlist(Sequence):
         :rtype: List[str]
         :returns: List of video URLs
         """
-        return DeferredGeneratorList(self.url_generator())
+        return DeferredGeneratorList(str(x.watch_url) if hasattr(x, "watch_url") else str(x) for x in self.url_generator())
 
     def videos_generator(self):
         for url in self.video_urls:

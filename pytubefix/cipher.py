@@ -899,7 +899,7 @@ class Cipher:
 
             # Strategy 3: Broader var=[func], validate it's nsig (has try/catch)
             logger.debug('Trying broader patterns with nsig validation')
-            for match in re.finditer(r"var\s*[a-zA-Z0-9$_]+\s*=\s*\[(?P<funcname>[a-zA-Z0-9$_]+)\]", js):
+            for match in re.finditer(r"(?:var\s+)?\s*[a-zA-Z0-9$_]+\s*=\s*\[(?P<funcname>[a-zA-Z0-9$_]+)\]", js):
                 candidate = match.group("funcname")
                 func_def = re.search(
                     r'(?:function\s+%s|(?:var\s+)?%s\s*=\s*function)\s*\(' % (
